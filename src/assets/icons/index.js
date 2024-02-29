@@ -22,6 +22,7 @@ import home from "./home.svg";
 import discover from "./discover.svg";
 import specials from "./specials.svg";
 import contact from "./contact.svg";
+import play from "./play.svg";
 
 export {
   airbnb,
@@ -43,4 +44,5 @@ export {
   discover,
   specials,
   contact,
+  play,
 };

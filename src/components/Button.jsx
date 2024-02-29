@@ -5,7 +5,7 @@ const Button = (props) => {
     props;
   return (
     <button
-      className={`font-inter py-[16px] px-[32px] ${variant} rounded-full`}
+      className={`font-inter py-[16px] px-[32px] ${variant} rounded-full shadow-md`}
     >
       {children}
     </button>

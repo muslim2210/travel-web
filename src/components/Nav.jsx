@@ -22,7 +22,7 @@ const Nav = ({ imgURL }) => {
 
   return (
     <header
-      className={`padding-x py-9 px-4 md:px-10 lg:px-12 fixed z-50 w-full  ${
+      className={`padding-x fixed py-6 px-4 md:px-10 lg:px-12 z-50 w-full  ${
         navbar ? "bg-white shadow-md" : "bg-transparent"
       }`}
     >
@@ -58,7 +58,9 @@ const Nav = ({ imgURL }) => {
           />
         </div>
         <div className="hidden md:block font-medium order-3">
-          <Button variant="bg-white text-black font-bold">Log In</Button>
+          <Button variant="bg-white text-black font-bold shadow-none">
+            Log In
+          </Button>
           <Button>Sign Up</Button>
         </div>
       </nav>
@@ -73,7 +75,7 @@ const Nav = ({ imgURL }) => {
               key={item.label}
               className="px-4 py-[10px] text-center mt-2 hover:bg-black hover:bg-opacity-10 hover:text-primary"
             >
-              <div className="flex items-center justify-center gap-4">
+              <div className="flex items-center justify-end gap-4">
                 <img src={item.imgURL} alt="" width={25} height={25} />
                 <a href={item.href} className="">
                   {item.label}
@@ -81,6 +83,12 @@ const Nav = ({ imgURL }) => {
               </div>
             </li>
           ))}
+          <li className="px-4 py-[10px] text-center mt-2">
+            <div className="flex items-center justify-end gap-5">
+              <Button variant="bg-white text-black font-bold">Log In</Button>
+              <Button>Sign Up</Button>
+            </div>
+          </li>
         </ul>
       </div>
     </header>
