@@ -2,14 +2,15 @@ import React from "react";
 
 const ServiceCard = ({ imgURL, label, subtext }) => {
   return (
-    <div className="flex-1 sm:w-[350px] sm:min-w-[350px] w-full rounded-[20px] shadow-3xl px-10 py-16">
-      <div className="w-11 h-11 flex justify-center items-center bg-coral-red rounded-full">
-        <img src={imgURL} alt={label} width={24} height={24} />
+    <div className="flex justify-center flex-col sm:w-[350px] sm:h-[279px] md:w-[288px] md:h-[443px] w-full border border-slate-gray rounded-[32px] shadow-xl px-10 py-10">
+      <div className="flex justify-center">
+        <img src={imgURL} alt={label} />
       </div>
-      <h3 className="mt-5 font-inter text-3xl leading-normal font-bold">
+
+      <h3 className="mt-5 md:mt-11 font-CircularStd text-center text-[24px] leading-normal font-bold">
         {label}
       </h3>
-      <p className="mt-3 break-words font-inter text-lg leading-normal text-slate-gray">
+      <p className="font-inter font-light leading-relaxed text-grey opacity-50 mt-5 md:mt-9 text-[17px] text-center">
         {subtext}
       </p>
     </div>

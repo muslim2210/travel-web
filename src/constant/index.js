@@ -4,6 +4,7 @@ import {
   tripadvisor,
   orbit,
   expedia,
+  booking,
   logo,
   hambmenu,
   work1,
@@ -39,7 +40,7 @@ export const navLinks = [
   { href: "#contact", label: "Contact", imgURL: contact },
 ];
 
-export const sponsor = [airbnb, bookingCom, tripadvisor, orbit, expedia];
+export const sponsor = [tripadvisor, expedia, orbit, airbnb, orbit];
 
 export const services = [
   {
@@ -87,6 +88,13 @@ export const destinations = [
     price: "$550.16",
     country: "Rome, Italy",
     rating: "4.8",
+  },
+  {
+    imgURL: destination3,
+    label: "Mountain View, Above the cloud",
+    price: "$150.99",
+    country: "Uni Emirate Arab",
+    rating: "5.8",
   },
 ];
 

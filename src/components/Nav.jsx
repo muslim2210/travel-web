@@ -22,7 +22,7 @@ const Nav = ({ imgURL }) => {
 
   return (
     <header
-      className={`padding-x fixed py-6 px-4 md:px-10 lg:px-12 z-50 w-full  ${
+      className={`padding-x fixed py-4 px-4 md:px-10 lg:px-12 z-50 w-full  ${
         navbar ? "bg-white shadow-md" : "bg-transparent"
       }`}
     >

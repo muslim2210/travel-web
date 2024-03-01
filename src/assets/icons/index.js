@@ -3,6 +3,7 @@ import bookingCom from "./bookingCom.svg";
 import tripadvisor from "./tripadvisor.svg";
 import orbit from "./orbit.svg";
 import expedia from "./expedia.svg";
+import booking from "./booking.svg";
 
 import logo from "./logo.svg";
 import hambmenu from "./hambmenu.svg";
@@ -23,6 +24,8 @@ import discover from "./discover.svg";
 import specials from "./specials.svg";
 import contact from "./contact.svg";
 import play from "./play.svg";
+import arrowR from "./arrow-r.svg";
+import arrowL from "./arrow-l.svg";
 
 export {
   airbnb,
@@ -45,4 +48,7 @@ export {
   specials,
   contact,
   play,
+  booking,
+  arrowL,
+  arrowR,
 };
