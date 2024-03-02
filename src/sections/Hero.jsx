@@ -8,7 +8,7 @@ import Sponsor from "../components/Sponsor";
 const Hero = () => {
   return (
     <section className="max-container w-full pt-[100px] lg:pt-[50px]">
-      <div className="container mx-auto px-4 lg:py-28">
+      <div className="container mx-auto px-4 lg:py-[100px] ">
         <div className="flex flex-col lg:flex-row justify-between p-4">
           {/* hero image */}
           <div className="lg:w-3/5 lg:order-2">

@@ -7,7 +7,7 @@ const TopDestination = () => {
   return (
     <>
       <section className="max-container">
-        <div className="flex flex-col lg:flex-row lg:justify-between lg:gap-5">
+        <div className="flex flex-col lg:flex-row lg:justify-between lg:gap-5 lg:mt-12">
           <div className="flex flex-col justify-center mb-4">
             <h2 className="font-CircularStd font-bold text-[16px] md:text-[23px] uppercase text-secondary leading-tight text-center lg:text-start tracking-widest">
               Top Destination
@@ -26,7 +26,7 @@ const TopDestination = () => {
           </div>
         </div>
       </section>
-      <div className="flex flex-col md:flex-row justify-center flex-wrap gap-8 md:gap-5 mt-5 md:mt-10">
+      <div className="flex flex-col md:flex-row justify-center flex-wrap gap-8 md:gap-5 mt-5 md:mt-16">
         {destinations.map((destination) => (
           <CardDestination key={destination.label} {...destination} />
         ))}

@@ -8,6 +8,7 @@ import travelpoint from "./travelpoint.png";
 import destination1 from "./destination1.jpg";
 import destination2 from "./destination2.jpg";
 import destination3 from "./destination3.png";
+import bgTestimoni from "./bg-testimonial.png";
 
 export {
   hero,
@@ -20,4 +21,5 @@ export {
   destination1,
   destination2,
   destination3,
+  bgTestimoni,
 };

@@ -4,12 +4,13 @@ import Hero from "./sections/Hero";
 import Services from "./sections/Services";
 import TopDestination from "./sections/TopDestination";
 import TravelPoint from "./sections/TravelPoint";
+import Features from "./sections/Features";
 
 function App() {
   return (
     <main className="relative">
       <Nav />
-      <section className="xl:padding-l wide:padding-r padding-b">
+      <section className="xl:padding-l wide:padding-r">
         <Hero />
       </section>
       <section className="padding">
@@ -20,6 +21,9 @@ function App() {
       </section>
       <section className="padding">
         <TravelPoint />
+      </section>
+      <section className="padding">
+        <Features />
       </section>
     </main>
   );

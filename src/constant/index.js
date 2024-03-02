@@ -105,6 +105,24 @@ export const statistics = [
   { value: "2k+", label: "Happy Customer" },
 ];
 
+export const features = [
+  {
+    imgURL: key1,
+    label: "We offer best services",
+    subText: "Lorem Ipsum is not simply random text",
+  },
+  {
+    imgURL: key2,
+    label: "Schedule your trip",
+    subText: "It has roots in a piece of classical",
+  },
+  {
+    imgURL: key3,
+    label: "Get discounted coupons",
+    subText: "Lorem Ipsum is not simply random text",
+  },
+];
+
 export const reviews = [
   {
     imgURL: test1,
