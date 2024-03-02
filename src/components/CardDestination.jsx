@@ -4,16 +4,18 @@ import { destination1 } from "../assets/images";
 const CardDestination = ({ imgURL, label, price, country, rating }) => {
   return (
     // <div className="flex relative justify-center flex-col sm:w-[350px] sm:h-[279px] md:w-[288px] md:h-[443px] w-full border border-slate-gray rounded-[32px] shadow-xl px-10 py-10">
-    <div className="flex relative justify-center flex-col sm:w-[350px] sm:h-[279px] md:w-[288px] md:h-[443px] w-full border border-slate-gray rounded-[32px] shadow-xl md:mt-10">
+    <div className="flex relative justify-center flex-col sm:w-[350px] sm:h-[279px] md:w-[300px] md:h-[443px] w-full border border-slate-gray rounded-[32px] shadow-xl md:mt-5 md:mb-9">
       <img
         src={imgURL}
         alt={label}
         className="h-80 w-full rounded-t-[32px] object-cover"
       />
 
-      <div className="px-5 pb-5 mt-4">
+      <div className="px-9 mb-7 mt-4">
         <p>
-          <span className="text-3xl font-bold text-slate-900">{price}</span>
+          <span className="text-[23px] font-CircularStd font-bold text-secondary">
+            {price}
+          </span>
         </p>
         <h3 className="mt-2 font-CircularStd text-[24px] leading-normal font-bold">
           {label}
@@ -21,11 +23,13 @@ const CardDestination = ({ imgURL, label, price, country, rating }) => {
         <p className="font-inter font-light leading-relaxed text-grey opacity-50 mt-2 text-[17px]">
           {country}
         </p>
-        <div className="mt-2 mb-5 flex items-center">
-          <span className="mr-2 rounded font-semibold">{rating}</span>
+        <div className="md:mb-10 flex items-center">
+          <span className="mr-2 rounded font-bold text-[20px] text-orange">
+            {rating}
+          </span>
           <svg
             aria-hidden="true"
-            className="h-5 w-5 text-yellow-300"
+            className="h-5 w-5 text-orange"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"

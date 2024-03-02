@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <section className="max-container">
       <div className="flex flex-col lg:flex-row lg:gap-5">
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center mb-3">
           <h2 className="font-CircularStd font-bold text-[16px] md:text-[23px] uppercase text-secondary leading-tight text-center lg:text-start tracking-widest">
             services
           </h2>

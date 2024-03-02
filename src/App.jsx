@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Hero from "./sections/Hero";
 import Services from "./sections/Services";
 import TopDestination from "./sections/TopDestination";
+import TravelPoint from "./sections/TravelPoint";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
       </section>
       <section className="padding">
         <TopDestination />
+      </section>
+      <section className="padding">
+        <TravelPoint />
       </section>
     </main>
   );

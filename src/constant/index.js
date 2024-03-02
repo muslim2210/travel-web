@@ -40,7 +40,7 @@ export const navLinks = [
   { href: "#contact", label: "Contact", imgURL: contact },
 ];
 
-export const sponsor = [tripadvisor, expedia, orbit, airbnb, orbit];
+export const sponsor = [tripadvisor, expedia, airbnb, orbit];
 
 export const services = [
   {
@@ -80,7 +80,7 @@ export const destinations = [
     label: "Mountain View, Above the cloud",
     price: "$150.99",
     country: "Uni Emirate Arab",
-    rating: "5.8",
+    rating: "4.9",
   },
   {
     imgURL: destination1,
@@ -94,7 +94,7 @@ export const destinations = [
     label: "Mountain View, Above the cloud",
     price: "$150.99",
     country: "Uni Emirate Arab",
-    rating: "5.8",
+    rating: "4.9",
   },
 ];
 
