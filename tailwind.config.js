@@ -13,6 +13,11 @@ export default {
         dark: "#222831",
         orange: "#FF5722",
       },
+      backgroundImage: {
+        testi: "url('assets/images/bg-testimonial.png')",
+        bgHero: "url('assets/images/bg-hero.png')",
+        bgSubs: "url('assets/images/bg-subscribe.png')",
+      },
     },
   },
   plugins: [],

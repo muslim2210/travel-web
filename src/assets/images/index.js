@@ -9,6 +9,8 @@ import destination1 from "./destination1.jpg";
 import destination2 from "./destination2.jpg";
 import destination3 from "./destination3.png";
 import bgTestimoni from "./bg-testimonial.png";
+import bgSubs from "./bg-subscribe.png";
+import bgHero from "./bg-hero.png";
 
 export {
   hero,
@@ -22,4 +24,6 @@ export {
   destination2,
   destination3,
   bgTestimoni,
+  bgSubs,
+  bgHero,
 };

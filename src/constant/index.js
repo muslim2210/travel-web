@@ -40,7 +40,7 @@ export const navLinks = [
   { href: "#contact", label: "Contact", imgURL: contact },
 ];
 
-export const sponsor = [tripadvisor, expedia, airbnb, orbit];
+export const sponsor = [tripadvisor, expedia, airbnb, orbit, tripadvisor];
 
 export const services = [
   {
@@ -123,13 +123,7 @@ export const features = [
   },
 ];
 
-export const reviews = [
-  {
-    imgURL: test1,
-    client: "Mark Smith",
-    type: "/ Travel Enthusiast",
-    text: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has rootsin a piece of classical Latin literature from 45 BC.",
-  },
+export const testimoni = [
   {
     imgURL: test1,
     client: "Mark Smith",

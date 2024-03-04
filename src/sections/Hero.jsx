@@ -1,7 +1,6 @@
 import React from "react";
-import { hero } from "../assets/images/";
-import { work1 } from "../assets/icons";
-import { play } from "../assets/icons";
+import { hero, bgHero } from "../assets/images/";
+import { work1, play } from "../assets/icons";
 import Button from "../components/Button";
 import Sponsor from "../components/Sponsor";
 
@@ -42,6 +41,9 @@ const Hero = () => {
                   Watch Demo
                 </Button>
               </div>
+            </div>
+            <div className="hidden md:block md:absolute translate-y-[-200px] lg:translate-y-[50px] 2xl:translate-y-[70px]">
+              <img src={bgHero} alt="" width={60} height={160} />
             </div>
           </div>
         </div>

@@ -17,10 +17,10 @@ const TopDestination = () => {
             </h1>
           </div>
           <div className="flex justify-between md:justify-center gap-5 cursor-pointer mb-2">
-            <div className="w-[64px] h-[64px] bg-primary rounded-full flex justify-center items-center hover:bg-white hover:border hover:border-black">
+            <div className="w-[64px] h-[64px] bg-primary rounded-full flex justify-center items-center hover:bg-white hover:border hover:border-black shadow-xl">
               <img src={arrowL} alt="" width={15} height={15} />
             </div>
-            <div className="w-[64px] h-[64px] bg-primary rounded-full flex justify-center items-center hover:bg-white hover:border hover:border-black">
+            <div className="w-[64px] h-[64px] bg-primary rounded-full flex justify-center items-center hover:bg-white hover:border hover:border-black shadow-xl">
               <img src={arrowR} alt="" width={15} height={15} />
             </div>
           </div>

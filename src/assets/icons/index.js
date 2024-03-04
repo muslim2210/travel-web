@@ -26,6 +26,7 @@ import contact from "./contact.svg";
 import play from "./play.svg";
 import arrowR from "./arrow-r.svg";
 import arrowL from "./arrow-l.svg";
+import msg from "./msg.svg";
 
 export {
   airbnb,
@@ -51,4 +52,5 @@ export {
   booking,
   arrowL,
   arrowR,
+  msg,
 };
