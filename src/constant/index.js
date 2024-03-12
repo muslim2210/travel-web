@@ -130,6 +130,36 @@ export const testimoni = [
     type: "/ Travel Enthusiast",
     text: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has rootsin a piece of classical Latin literature from 45 BC.",
   },
+  {
+    imgURL: test1,
+    client: "Mark Smith",
+    type: "/ Travel Enthusiast",
+    text: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has rootsin a piece of classical Latin literature from 45 BC.",
+  },
+  {
+    imgURL: test1,
+    client: "Mark Smith",
+    type: "/ Travel Enthusiast",
+    text: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has rootsin a piece of classical Latin literature from 45 BC.",
+  },
+  {
+    imgURL: test1,
+    client: "Mark Smith",
+    type: "/ Travel Enthusiast",
+    text: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has rootsin a piece of classical Latin literature from 45 BC.",
+  },
+  {
+    imgURL: test1,
+    client: "Mark Smith",
+    type: "/ Travel Enthusiast",
+    text: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has rootsin a piece of classical Latin literature from 45 BC.",
+  },
+  {
+    imgURL: test1,
+    client: "Mark Smith",
+    type: "/ Travel Enthusiast",
+    text: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has rootsin a piece of classical Latin literature from 45 BC.",
+  },
 ];
 
 export const footerLinks = [

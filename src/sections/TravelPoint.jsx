@@ -9,7 +9,7 @@ const TravelPoint = () => {
       <div className="flex flex-col lg:flex-row lg:justify-between lg:gap-5">
         {/* Image container */}
         <div className="w-full h-[350px] md:h-[700px] lg:w-3/5">
-          <div className="absolute left-0 lg:w-[800px] 2xl:w-[1000px]">
+          <div className="absolute px-0 left-0 lg:w-[800px] 2xl:w-[1000px]">
             <img src={travelpoint} alt="" />
           </div>
         </div>

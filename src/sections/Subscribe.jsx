@@ -29,6 +29,7 @@ const Subscribe = () => {
                 placeholder="Your Email"
                 className="font-CircularStd py-[24px] px-[34px] rounded-[16px] font-semibold placeholder:text-black/80 border border-slate-gray  focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary md:w-[400px] lg:w-[600px] md:text-[20px]"
               />
+
               {/* button */}
               <button className="bg-primary hover:bg-[#5D50C6]/70 text-white md:text-[20px] font-inter py-[24px] px-[64px] rounded-[16px] shadow-md">
                 Get Started

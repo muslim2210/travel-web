@@ -3,14 +3,14 @@ import { destination1 } from "../assets/images";
 
 const CardDestination = ({ imgURL, label, price, country, rating }) => {
   return (
-    <div className="flex relative justify-center flex-col sm:w-[350px] sm:h-[279px] md:w-[300px] md:h-[443px] w-full border border-slate-gray rounded-[32px] shadow-xl md:mt-5 md:mb-9 cursor-pointer">
+    <div className="flex relative justify-center flex-col w-full border border-slate-gray rounded-[32px] shadow-xl md:mt-5 md:mb-9 cursor-pointer overflow-hidden">
       <img
         src={imgURL}
         alt={label}
-        className="h-80 w-full rounded-t-[32px] object-cover"
+        className="w-full rounded-t-[32px] object-cover"
       />
 
-      <div className="px-9 mb-7 mt-4">
+      <div className="px-9 mb-7 mt-4 h-[170px]">
         <p>
           <span className="text-[23px] font-CircularStd font-bold text-secondary">
             {price}

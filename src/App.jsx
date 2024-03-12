@@ -2,7 +2,8 @@ import React from "react";
 import Nav from "./components/Nav";
 import Hero from "./sections/Hero";
 import Services from "./sections/Services";
-import TopDestination from "./sections/TopDestination";
+import TopDestinationNew from "./sections/TopDestinationNew";
+
 import TravelPoint from "./sections/TravelPoint";
 import Features from "./sections/Features";
 import Testimoni from "./sections/Testimoni";
@@ -20,7 +21,7 @@ function App() {
         <Services />
       </section>
       <section className="padding">
-        <TopDestination />
+        <TopDestinationNew />
       </section>
       <section className="padding">
         <TravelPoint />

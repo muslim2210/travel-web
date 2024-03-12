@@ -1,4 +1,14 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import required modules
+import { Pagination } from "swiper/modules";
+
 import { testimoni } from "../constant";
 import { arrowL, arrowR } from "../assets/icons";
 import CardTestimoni from "../components/CardTestimoni";
@@ -16,10 +26,24 @@ const Testimoni = () => {
           </h1>
         </div>
         <div className="py-5 px-5 md:w-[584px] lg:w-[878px] md:mx-auto">
-          {/* card testimoni */}
-          {testimoni.map((testi, index) => (
-            <CardTestimoni key={testi.index} {...testi} />
-          ))}
+          {/* slider */}
+          <Swiper
+            spaceBetween={30}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Pagination]}
+            className=""
+          >
+            {/* card testimoni */}
+            {testimoni.map((testi, index) => {
+              return (
+                <SwiperSlide key={index}>
+                  <CardTestimoni {...testi} />
+                </SwiperSlide>
+              );
+            })}
+          </Swiper>
         </div>
         <div className="md:aboslute md:translate-y-[-300px]">
           {/* arrow */}
